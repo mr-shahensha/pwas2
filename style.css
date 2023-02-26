@@ -59,3 +59,49 @@ button{
 .right-hero-section>img{
     width: 64%;
 }
+
+/* start media query */
+
+@media (max-width:600px){
+
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .left-hero-section{
+        width: 100%;
+    }
+    .left-hero-section h1{
+        font-size: 30px;
+    }
+    .left-hero-section p{
+        margin: 2% 0;
+    }
+    button{
+        padding: 10px 15px;
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+        border: none;
+        background-color: #3b855b;
+        border-radius: 10px;
+    }
+    .right-hero-section{
+        width: 100%;
+        padding: 7%;
+    }
+    .right-hero-section div img{
+        width: 30%;
+    }
+    .right-hero-section div img:first-child{
+        margin-right:20px;
+    }
+    .right-hero-section div{
+        margin-bottom: 20px;
+    }
+    .right-hero-section>img{
+        width: 64%;
+    }
+}
